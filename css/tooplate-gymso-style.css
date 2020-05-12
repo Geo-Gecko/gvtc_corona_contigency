@@ -184,11 +184,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
      GENERAL               
   -----------------------------------------*/
 
-  * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
 
   *::before,
   *::after {
@@ -295,7 +290,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .navbar .social-icon li a {
-    color: var(--white-color);
+    color: white;
   }
 
   .navbar-toggler {
@@ -647,7 +642,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .social-icon li a:hover {
-    color: var(--primary-color);
+    color: var(--primary);
   }
 
 
@@ -697,4 +692,17 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .contact h2 span {
       display: block;
     }
+  }
+
+  .footer-content .social-icon li a{
+    color: #a5a49d;
+  }
+
+  .footer-content .quick-links li{
+    color:#a5a49d;
+  }
+
+  .copyright-text {
+    color:#a5a49d;
+    ;
   }
