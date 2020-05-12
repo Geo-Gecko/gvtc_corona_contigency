@@ -641,8 +641,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
     text-align: center;
   }
 
-  .social-icon li a:hover {
-    color: var(--primary);
+  .footer-content .social-icon li a:hover {
+    color: #32fa75;
   }
 
 
